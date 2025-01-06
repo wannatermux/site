@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrustCorp Solutions - Business Excellence</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .header {
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #2c3e50;
+            margin-left: 2rem;
+            font-weight: 500;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 8rem 2rem 4rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .feature-card {
+            padding: 2rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .testimonials {
+            background: #f8f9fa;
+        }
+
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .testimonial-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+        }
+
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .btn {
+            background: #2c3e50;
+            color: white;
+            padding: 0.8rem 2rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .trust-indicators {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .trust-badge {
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">TrustCorp</div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Building Trust Through Excellence</h1>
+        <p>Providing innovative solutions for businesses worldwide since 2010</p>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>TrustCorp Solutions is a leading provider of business services with over a decade of experience serving clients globally. Our commitment to excellence and innovation drives everything we do.</p>
+        
+        <div class="trust-indicators">
+            <div class="trust-badge">
+                <img src="/api/placeholder/30/30" alt="Certified">
+                ISO Certified
+            </div>
+            <div class="trust-badge">
+                <img src="/api/placeholder/30/30" alt="Awards">
+                Industry Awards
+            </div>
+            <div class="trust-badge">
+                <img src="/api/placeholder/30/30" alt="Security">
+                Bank-Grade Security
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Our Services</h2>
+        <div class="features">
+            <div class="feature-card">
+                <img src="/api/placeholder/60/60" alt="Consulting">
+                <h3>Business Consulting</h3>
+                <p>Strategic guidance for your business growth and success</p>
+            </div>
+            <div class="feature-card">
+                <img src="/api/placeholder/60/60" alt="Solutions">
+                <h3>Digital Solutions</h3>
+                <p>Cutting-edge technology solutions for modern businesses</p>
+            </div>
+            <div class="feature-card">
+                <img src="/api/placeholder/60/60" alt="Support">
+                <h3>24/7 Support</h3>
+                <p>Round-the-clock assistance for your business needs</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section testimonials">
+        <h2>Client Testimonials</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <img src="/api/placeholder/50/50" alt="Client 1">
+                <p>"TrustCorp has transformed our business operations with their innovative solutions."</p>
+                <strong>- John Smith, CEO</strong>
+            </div>
+            <div class="testimonial-card">
+                <img src="/api/placeholder/50/50" alt="Client 2">
+                <p>"Outstanding service and professional support. Highly recommended!"</p>
+                <strong>- Sarah Johnson, Director</strong>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 TrustCorp Solutions. All rights reserved.</p>
+        <div class="nav-links">
+            <a href="#privacy">Privacy Policy</a>
+            <a href="#terms">Terms of Service</a>
+            <a href="#security">Security</a>
+        </div>
+    </footer>
+</body>
+</html>
